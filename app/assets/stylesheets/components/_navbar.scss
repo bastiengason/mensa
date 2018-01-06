@@ -7,8 +7,8 @@
   top: 0;
   width: 100%;
   z-index: 10;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   padding-left: 8%;
   padding-right: 8%;
   a {
@@ -43,21 +43,21 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0px 3px 15px RGBA(0, 0, 0, 0.02);
+  box-shadow: 0px 3px 15px RGBA(0, 0, 0, 0.1);
   top: 0;
   background-color: white;
   width: 100%;
   z-index: 10;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   padding-left: 8%;
   padding-right: 8%;
   a {
-    color: black;
+    color: $brand-blue;
 
     &:focus,
     &:hover {
-      color: black;
+      color: $brand-blue;
       font-weight: 500;
       text-decoration: none;
     }
@@ -73,9 +73,8 @@
 }
 
 .nav-logo {
-  width: 135px;
+  width: 120px;
   display: inline;
-  color: red;
 }
 
 .nav-logo-mobile {
@@ -92,29 +91,23 @@
 
 .nav-element {
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
+  letter-spacing: 1px;
   margin-left: 60px;
   margin-top: auto;
   margin-bottom: auto;
 }
 
 .iggrow-logo-blue {
-  fill: $brand-blue;
+  color: blue;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+.iggrow-logo {
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
+}
 
 
 
