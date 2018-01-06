@@ -1,1 +1,43 @@
-_navbar.html.erb
+<!-- Navbar -->
+<div class="navbar-recovr hidden-sm hidden-xs">
+  <a href="#">
+    <%= image_tag("iggrow-logo.svg", class: "nav-logo") %>
+  </a>
+  <div class="nav-container">
+    <div class="nav-element">
+      <a href="#discover">
+        <%= t('landing.navbar.discover') %>
+      </a>
+    </div> <!-- End .nav-element -->
+    <div class="nav-element">
+      <a href="#features">
+        <%= t('landing.navbar.features') %>
+      </a>
+    </div> <!-- End .nav-element -->
+    <div class="nav-element">
+      <a href="#pricing">
+        <%= t('landing.navbar.pricing') %>
+      </a>
+    </div> <!-- End .nav-element -->
+    <div class="nav-element">
+      <a href="#about">
+        <%= t('landing.navbar.about') %>
+      </a>
+    </div> <!-- End .nav-element -->
+    <div class="nav-element">
+      <a href="#team">
+        <%= t('landing.navbar.team') %>
+      </a>
+    </div> <!-- End .nav-element -->
+  </div>
+</div>
+
+<div class="navbar-recovr-mobile hidden-md hidden-lg">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12">
+        <%= image_tag("iggrow-logo.svg", class: "nav-logo-mobile") %>
+      </div>
+    </div>
+  </div>
+</div>
