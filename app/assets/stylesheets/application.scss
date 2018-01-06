@@ -1,2 +1,14 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+// Components
+@import "components/buttons";
+@import "components/navbar";
+@import "components/form";
+
+// Sections
+@import "section/banner";
+@import "section/why";
+@import "section/how";
+@import "section/pricing";
+@import "section/footer";
