@@ -28,5 +28,10 @@ body {
   font-size: 35px;
   font-weight: 600;
   color: $brand-blue;
-  margin-bottom: 90px;
+  margin-bottom: 55px;
+}
+
+hr {
+  border: $gray solid 1px;
+  opacity: 0.1;
 }
