@@ -1,14 +1,24 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+// Config
+@import "config/utilities";
+@import "config/variables";
+
 // Components
 @import "components/buttons";
 @import "components/navbar";
 @import "components/form";
 
 // Sections
-@import "section/banner";
-@import "section/why";
-@import "section/how";
-@import "section/pricing";
-@import "section/footer";
+@import "sections/banner";
+@import "sections/why";
+@import "sections/how";
+@import "sections/pricing";
+@import "sections/contact";
+@import "sections/footer";
+
+
+body {
+  font-family: "Poppins", sans-serif;
+}

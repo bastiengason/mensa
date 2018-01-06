@@ -1,0 +1,121 @@
+.navbar-recovr {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 8%;
+  padding-right: 8%;
+  a {
+    color: white;
+
+    &:focus,
+    &:hover {
+      color: white;
+      font-weight: 500;
+      text-decoration: none;
+    }
+  }
+}
+
+.navbar-recovr-mobile {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  padding-top: 10px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.second-nav {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 3px 15px RGBA(0, 0, 0, 0.02);
+  top: 0;
+  background-color: white;
+  width: 100%;
+  z-index: 10;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 8%;
+  padding-right: 8%;
+  a {
+    color: black;
+
+    &:focus,
+    &:hover {
+      color: black;
+      font-weight: 500;
+      text-decoration: none;
+    }
+  }
+}
+
+.counter {
+  background: black;
+  color: #fff;
+  position: fixed;
+  top: 120px;
+  right: 0;
+}
+
+.nav-logo {
+  width: 135px;
+  display: inline;
+  color: red;
+}
+
+.nav-logo-mobile {
+  width: 135px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-element {
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  margin-left: 60px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.iggrow-logo-blue {
+  fill: $brand-blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
