@@ -24,10 +24,10 @@ $(document).ready(function(){
 
     if (scrollTop >= 150) {
       $('.navbar-recovr').addClass('second-nav').fadeIn("slow");
-      $('.nav-logo').addClass('iggrow-logo-blue').fadeIn("slow");
+      $('.iggrow-logo').addClass('iggrow-logo-blue').fadeIn("slow");
     } else if (scrollTop < 150) {
       $('.navbar-recovr').removeClass('second-nav').fadeIn("slow");
-      $('.nav-logo').removeClass('iggrow-logo-blue').fadeIn("slow");
+      $('.iggrow-logo').removeClass('iggrow-logo-blue').fadeIn("slow");
     }
   });
 });

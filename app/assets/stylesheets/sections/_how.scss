@@ -1,4 +1,35 @@
 #how {
-  height: 100vh;
-  background-color: yellow;
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.feature {
+  margin-bottom: 150px;
+}
+
+.feature-content {
+  display: flex;
+  height: 300px;
+}
+
+.feature-content-vert {
+  margin: auto;
+}
+
+.feature-illu {
+  width: auto;
+  height: 300px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.feature-title {
+  color: $gray;
+  margin-bottom: 30px;
+}
+
+.features-desc {
+  color: $gray;
+  line-height: 1.5;
+  font-weight: 300;
 }

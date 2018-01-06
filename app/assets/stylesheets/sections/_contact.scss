@@ -1,4 +1,12 @@
 #contact {
-  height: 100vh;
-  background-color: orange;
+  height: 90vh;
+  position: relative;
+}
+
+.iphone-mock-up {
+  position: absolute;
+  width: 30%;
+  right: 15%;
+  bottom: -200px;
+  z-index: -1;
 }
