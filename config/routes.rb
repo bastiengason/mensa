@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'getstarted/thankyou'
+
   get 'getstarted/basic', to: 'getstarted#basic'
   get 'getstarted/basic_confirm', to: 'getstarted#basic_confirm'
 

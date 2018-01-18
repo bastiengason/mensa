@@ -16,4 +16,7 @@ class GetstartedController < ApplicationController
 
   def pro_confirm
   end
+
+  def thankyou
+  end
 end
