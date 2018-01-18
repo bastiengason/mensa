@@ -7,6 +7,16 @@
   width: 200px;
   border-radius: 50px;
   border: none;
+
+  a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      color: white;
+      text-decoration: none;
+    }
+  }
 }
 
 
@@ -21,4 +31,28 @@
   border: none;
   padding-left: 20px;
   padding-right: 20px;
+
+  a {
+    color: $brand-blue-light;
+    text-decoration: none;
+
+    &:hover {
+      color: $brand-blue-light;
+      text-decoration: none;
+    }
+  }
+}
+
+.pricing-button {
+  position: absolute;
+  width: 60%;
+  bottom: -25px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+
+
+.confirm-button {
+  width: 250px;
 }
