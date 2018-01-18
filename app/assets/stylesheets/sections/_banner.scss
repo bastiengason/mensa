@@ -4,6 +4,11 @@
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
   padding: 8%;
+
+  @media screen and (max-width: 375px) {
+    height: 100%;
+    text-align: center;
+  }
 }
 
 .banner-title {
@@ -13,6 +18,10 @@
   line-height: 1.5;
   margin-top: 18vh;
   margin-bottom: 20px;
+
+  @media screen and (max-width: 375px) {
+    font-size: 25px;
+  }
 }
 
 .banner-desc {
@@ -27,4 +36,7 @@
   color: $brand-green;
   font-size: 38px;
   font-weight: 600;
+  @media screen and (max-width: 375px) {
+    font-size: 25px;
+  }
 }
