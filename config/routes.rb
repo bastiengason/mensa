@@ -4,10 +4,10 @@ Rails.application.routes.draw do
   get 'getstarted/basic' => redirect("https://basicplan.carrd.co/") # Recopie ca pour les deux autres plans
   get 'getstarted/basic_confirm', to: 'getstarted#basic_confirm'
 
-  get 'getstarted/intermediate', to: 'getstarted#intermediate'
+  get 'getstarted/intermediate'=> redirect("https://intermediateplan.carrd.co/")
   get 'getstarted/intermediate_confirm', to: 'getstarted#intermediate_confirm'
 
-  get 'getstarted/pro', to: 'getstarted#pro'
+  get 'getstarted/pro'=> redirect("https://proplan.carrd.co/")
   get 'getstarted/pro_confirm', to: 'getstarted#pro_confirm'
 
 
