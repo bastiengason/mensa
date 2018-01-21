@@ -1,0 +1,75 @@
+#why {
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.tututu {
+  color: $gray;
+  font-size: 18px;
+  padding-left: 10%;
+  padding-right: 10%;
+  line-height: 1.5;
+  margin-bottom: 100px;
+  font-weight: 300;
+}
+
+.card-type {
+
+  h3 {
+    padding-bottom: 20px;
+    color: $brand-blue;
+    font-weight: 600;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    padding-bottom: 30px;
+    li {
+      padding-bottom: 10px;
+
+      span.left {
+        opacity: 0.5;
+        margin: 0 0 0 10px;
+      }
+
+      span.right {
+        opacity: 0.5;
+        margin: 0 10px 0 0;
+      }
+    }
+  }
+}
+
+.card-type-desc {
+  color: $gray;
+  font-weight: 200;
+  padding-bottom: 30px;
+  line-height: 1.9;
+}
+
+.content-right {
+  text-align: right;
+  padding-right: 50px;
+}
+
+.content-left {
+  text-align: left;
+  padding-left: 50px;
+}
+
+.icon-card-type {
+  height: 50px;
+}
+
+.h100 {
+  height: 100px;
+}
+
+
+
+
+
+
+
+
+
