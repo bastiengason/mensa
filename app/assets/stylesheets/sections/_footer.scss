@@ -14,16 +14,53 @@
   margin: auto;
 }
 
-.vcenter {
-  display: flex;
-}
 
+.vcenter {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+}
 .made-with-love {
   font-weight: 500;
   color: white;
   margin: auto;
+  position: relative;
+  left: -50%;
 }
 
 .emoji {
   width: 20px;
+}
+
+.footer-bottom {
+  position: relative;
+  height: 70%;
+  padding-top: 30px;
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    padding-top: 10px;
+
+    li {
+      font-size: 16px;
+      padding-bottom: 10px;
+      color: white;
+
+      .fa {
+        padding-right: 10px;
+      }
+    }
+  }
+
+  a {
+    color: white;
+
+    &:focus,
+    &:hover {
+      color: white;
+      font-weight: 500;
+      text-decoration: none;
+    }
+  }
 }
