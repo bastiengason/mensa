@@ -10,6 +10,10 @@ Rails.application.routes.draw do
   get 'getstarted/pro'=> redirect("https://proplan.carrd.co/")
   get 'getstarted/pro_confirm', to: 'getstarted#pro_confirm'
 
+  get '/faq', to: 'pages#faq'
+  get '/blog', to: 'pages#blog'
+  get '/jobs', to: 'pages#jobs'
+  get '/terms', to: 'pages#terms'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   root to: 'application#home'
