@@ -11,9 +11,20 @@
   line-height: 1.5;
   margin-bottom: 100px;
   font-weight: 300;
+
+  @media screen and (max-width: 375px) {
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .card-type {
+
+  @media screen and (max-width: 375px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
   h3 {
     padding-bottom: 20px;
@@ -50,11 +61,20 @@
 .content-right {
   text-align: right;
   padding-right: 50px;
+  @media screen and (max-width: 375px) {
+    padding-right: 20px;
+    text-align: left;
+    padding-left: 20px;
+  }
 }
 
 .content-left {
   text-align: left;
   padding-left: 50px;
+  @media screen and (max-width: 375px) {
+    padding-left: 20px;
+    padding-top: 50px;
+  }
 }
 
 .icon-card-type {

@@ -5,6 +5,11 @@
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
   z-index: -10;
+
+  @media screen and (max-width: 375px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 .iphone-mock-up {
@@ -25,5 +30,9 @@
   .we-can-help {
     color: $purple;
     font-weight: 600;
+  }
+
+  @media screen and (max-width: 375px) {
+    padding-top: 22vh;
   }
 }
