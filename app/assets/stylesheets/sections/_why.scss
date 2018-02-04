@@ -30,6 +30,9 @@
     padding-bottom: 20px;
     color: $brand-blue;
     font-weight: 600;
+    @media screen and (max-width: 375px) {
+      text-align: center;
+    }
   }
   ul {
     list-style: none;
@@ -73,7 +76,7 @@
   padding-left: 50px;
   @media screen and (max-width: 375px) {
     padding-left: 20px;
-    padding-top: 50px;
+    padding-top: 90px;
   }
 }
 
