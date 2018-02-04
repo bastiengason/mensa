@@ -35,6 +35,9 @@
   padding-top: 10px;
   padding-left: 15%;
   padding-right: 15%;
+  @media screen and (max-width: 375px) {
+    padding-top: 20px;
+  }
 }
 
 .second-nav {
