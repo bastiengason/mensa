@@ -3,6 +3,11 @@
   min-height: 100vh;
   padding-top: 50px;
   padding-bottom: 100px;
+
+  @media screen and (max-width: 375px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .question {
