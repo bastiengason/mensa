@@ -21,8 +21,9 @@
 }
 
 .made-with-love {
-  font-weight: 500;
-  color: white;
+  font-weight: 400;
+  font-size: 12px;
+  color: $purple;
   margin: auto;
   position: relative;
   margin-top: 50px;
@@ -30,7 +31,7 @@
 }
 
 .emoji {
-  width: 20px;
+  width: 15px;
 }
 
 .footer-bottom {
