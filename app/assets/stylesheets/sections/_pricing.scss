@@ -36,20 +36,49 @@
 }
 
 .card-pricing-content {
-  padding-top: 35px;
-  text-align: center;
+  padding-top: 25px;
   ul {
     list-style: none;
     padding: 0;
   }
 }
 
+.circle-checked {
+  color: $purple;
+  float: left;
+  margin-top: 4px;
+  margin-left: 23%;
+  margin-right: 20px;
+}
+
+.circle-unchecked {
+  color: $gray-circle;
+  float: left;
+  margin-top: 5px;
+  margin-left: 23%;
+  margin-right: 20px;
+}
+
 .pricing-spec {
-  color: $gray;
-  font-weight: 300;
-  font-size: 16px;
   text-decoration: none;
   margin-bottom: 25px;
+  font-size: 16px;
+
+  p {
+    font-weight: 300;
+  }
+}
+
+.amount-followers {
+  text-align: center;
+  margin-bottom: 25px;
+  color: $gray;
+  font-weight: 300;
+  font-size: 20px;
+
+  span {
+    font-size: 14px;
+  }
 }
 
 .pricing-title {
