@@ -30,4 +30,12 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  landing:
+    navbar:
+      discover: "Discover"
+      how_it_works: "How it works"
+      pricing: "Pricing"
+      about: "About"
+      contact_us: "Contact us"
+    buttons:
+      primary_button: "Get Started"
