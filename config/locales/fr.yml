@@ -6,4 +6,5 @@ fr:
       pricing: "Prix"
       about: "A propos"
       contact_us: "Nous contacter"
-      cta: "Get Started"
+    buttons:
+      primary_button: "Commencez"

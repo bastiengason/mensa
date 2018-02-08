@@ -37,4 +37,5 @@ en:
       pricing: "Pricing"
       about: "About"
       contact_us: "Contact us"
-      cta: "Get Started"
+    buttons:
+      primary_button: "Get Started"
