@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+
+  scope '/:locale', locale: /#{I18n.available_locales.join('|')}/ do
+    root to: 'application#home'
+  end
+
   get 'getstarted/thankyou'
 
   get 'getstarted/basic' => redirect("https://basicplan.carrd.co/") # Recopie ca pour les deux autres plans
@@ -15,9 +20,6 @@ Rails.application.routes.draw do
   get '/jobs', to: 'pages#jobs'
   get '/terms', to: 'pages#terms'
 
-  scope '/:locale', locale: /#{I18n.available_locales.join('|')}/ do
-    root to: 'application#home'
-  end
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   root to: 'application#home'
 end
