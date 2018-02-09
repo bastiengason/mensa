@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+
+  scope '/:locale', locale: /#{I18n.available_locales.join('|')}/ do
+    root to: 'application#home'
+  end
+
   get 'getstarted/thankyou'
 
   get 'getstarted/basic' => redirect("https://basicplan.carrd.co/") # Recopie ca pour les deux autres plans
