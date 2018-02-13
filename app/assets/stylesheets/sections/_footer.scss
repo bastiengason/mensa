@@ -56,7 +56,9 @@
   }
 
   a {
-    color: white;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+    letter-spacing: 0.03em;
 
     &:focus,
     &:hover {
