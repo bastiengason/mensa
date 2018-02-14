@@ -22,7 +22,7 @@
 
 .secondary-button {
   background-color: $purple;
-  color: $brand-blue-light;
+  color: white;
   font-size: 18px;
   font-weight: 300;
   height: 55px;
@@ -33,11 +33,10 @@
   padding-right: 20px;
 
   a {
-    color: $brand-blue-light;
+    color: white;
     text-decoration: none;
 
     &:hover {
-      color: $brand-blue-light;
       text-decoration: none;
     }
   }
