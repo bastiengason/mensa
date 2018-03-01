@@ -25,17 +25,6 @@ fr:
                                  <br>
                                  </span>
                                  EXACTEMENT COMME <strong>UN HUMAIN</strong> avec des <span>SUPERS POUVOIRS</span> le ferait."
-    footer:
-      get_started: "Commencez"
-      why: "Découvrez"
-      how: "Comment ça marche"
-      pricings: "Prix"
-      contact: "Contactez-nous"
-      blog: "Blog"
-      job: "Job chez Iggrow"
-      terms: "Conditions d'utilisation"
-      faq: "FAQ"
-      followus: "Suivez-nous"
 
     jobs:
       career: "Intéressé par une carrière chez IGGROW?"
@@ -112,4 +101,15 @@ fr:
                           <br><br>"
       help: "Nous pouvons vous aider..."
 
+    footer:
+      get_started: "Commencez"
+      why: "Découvrez"
+      how: "Comment ça marche"
+      pricings: "Prix"
+      contact: "Contactez-nous"
+      blog: "Blog"
+      job: "Job chez Iggrow"
+      terms: "Conditions d'utilisation"
+      faq: "FAQ"
+      followus: "Suivez-nous"
 

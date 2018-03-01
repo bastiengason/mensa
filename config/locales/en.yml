@@ -25,18 +25,6 @@ en:
                                 </span>
                                 Exactly like <strong>A HUMAN</strong> with <span>SUPER SOCIAL MEDIA POWER</span> would do."
 
-    footer:
-      get_started: "Get Started"
-      why: "Discover"
-      how: "How it works"
-      pricings: "Pricings"
-      contact: "Contact us"
-      blog: "Blog"
-      job: "Job at Iggrow"
-      terms: "Terms and Conditions"
-      faq: "FAQ"
-      followus: "Follow us"
-
     jobs:
       career: "Want to Start a carreer at IGGROW?"
 
@@ -146,3 +134,14 @@ en:
       contact_us_html: "Influencers, Personal Brand, Start-up, Digital Company &#038; more"
       help: "We can help you..."
 
+    footer:
+      get_started: "Get Started"
+      why: "Discover"
+      how: "How it works"
+      pricings: "Pricings"
+      contact: "Contact us"
+      blog: "Blog"
+      job: "Job at Iggrow"
+      terms: "Terms and Conditions"
+      faq: "FAQ"
+      followus: "Follow us"
