@@ -17,7 +17,7 @@ fr:
                     <strong>FIDÈLE</strong>
                     <br>
                     AUTOUR DE VOTRE PROJET SUR <span>INSTAGRAM</span>"
-        banner_description_html: "Faites grandir votre communauté Instagram de façon organique avec des vrais followers
+        banner_desc_html: "Faites grandir votre communauté Instagram de façon organique avec des vrais followers
                                  <br>
                                  <span>
                                  Gagnez jusqu'à +1500 followers ciblés chaque mois sans effort de votre part.
@@ -26,7 +26,7 @@ fr:
                                  <br>
                                  <br>
                                  </span>
-                                 EXACTEMENT COMME <strong>UN HUMAIN</strong> avec des <span>SUPERS POUVOIRS</span> le ferait."
+                                 Exactement comme <strong>UN HUMAIN</strong> avec des <span>SUPERS POUVOIRS</span> le ferait."
 
     jobs:
       career: "Intéressé par une carrière chez IGGROW?"
@@ -68,26 +68,6 @@ fr:
       business4_html: "Améliorer l'engagement sur vos publications"
       business5_html: "Etendez-vous facilement sur de nouveaux marché"
 
-    pricing:
-      basic_amount_html: "<strong>500 - 900</strong> <br> <span>targeted Followers per month</span>"
-      basic_support: "Support limité"
-      basic_report: "Rapport Mensuel"
-      basic_comment: "Commentaire"
-      basic_dm: "Messages Directs"
-      basic_yearly: "53€/mo - billed yearly"
-      standard_amount_html: "<strong>900 - 1500</strong> <br> <span>Followers ciblés par mois</span>"
-      standard_support: "Support limité"
-      standard_report: "Rapport mensuel"
-      standard_comment: "Comments"
-      standard_dm: "Messages Directs"
-      standard_yearly: "83€/mo - billed yearly"
-      plus_amount_html: "<strong>+ 1500</strong> <br> <span>Followers ciblés par mois</span><"
-      plus_support: "Support illimité"
-      plus_report: "Rapport mensuel"
-      plus_comment: "Commentaires"
-      plus_dm: "Messages Directs"
-      plus_yearly: "150€/mo - billed yearly"
-
     how:
       section_title: "Comment ça fonctionne ?"
 
@@ -103,20 +83,49 @@ fr:
       feature_title_4: "Convertissez votre nouvelle notoriété en vente sonnante et trébuchante"
       feature_desc_4: "Une fois la nouvelle campagne lancée, la machine à amplifier se met en route. Votre audience représente des clients potentiels pour votre business. Un client potentiel peut devenir un client fidèle."
 
+
+    pricing:
+      basic_amount_html: "<strong>500 - 1000</strong> <br> <span>Followers ciblés par mois</span>"
+      basic_follow: "Follow / Unfollow"
+      basic_like: "Like"
+      basic_support: "Support limité"
+      basic_report: "Rapport Mensuel"
+      basic_comment: "Commentaire"
+      basic_dm: "Messages Directs"
+      basic_title: "STARTER"
+      basic_price: "59 €"
+      standard_amount_html: "<strong>1000 - 1500</strong> <br> <span>Followers ciblés par mois</span>"
+      standard_follow: "Follow / Unfollow"
+      standard_like: "Like"
+      standard_support: "Support limité"
+      standard_report: "Rapport mensuel"
+      standard_comment: "Comments"
+      standard_dm: "Messages Directs"
+      standard_title: "STANDARD"
+      standard_price: "89 €"
+      plus_amount_html: "<strong>+ 1500</strong> <br> <span>Followers ciblés par mois</span>"
+      plus_follow: "Follow / Unfollow"
+      plus_like: "Like"
+      plus_support: "Support <strong>illimité</strong>"
+      plus_report: "Rapport mensuel"
+      plus_comment: "Commentaires"
+      plus_dm: "Messages Directs"
+      plus_title: "PLUS"
+      plus_price: "159 €"
+
     contact:
-      contact_us_html: "Influencers, Marque Personnel, Start-up, Société Digitale &#038; more
-                          <br><br>"
+      contact_us_html: "Influencers, Marque Personnel, <br> Start-up, Société Digitale &#038; more
+                         <br><br>"
       help: "Nous pouvons vous aider..."
 
     footer:
-      get_started: "Commencez"
       why: "Découvrez"
       how: "Comment ça marche"
-      pricings: "Prix"
+      pricing: "Prix"
       contact: "Contactez-nous"
       blog: "Blog"
-      job: "Job chez Iggrow"
+      jobs: "Jobs chez Iggrow"
       terms: "Conditions d'utilisation"
       faq: "FAQ"
-      followus: "Suivez-nous"
+      follow_us: "Suivez-nous :"
 

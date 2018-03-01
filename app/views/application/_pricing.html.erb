@@ -4,38 +4,38 @@
         <div class="card-pricing">
           <div class="card-pricing-content">
             <div class="amount-followers">
-              <p><strong>700 - 1000</strong> <br> <span>targeted Followers per month</span></p>
+              <p><%= t('landing.pricing.basic_amount_html') %></p>
             </div>
             <ul>
               <li class="pricing-spec">
                 <i class="fas fa-check-circle circle-checked"></i>
-                <p>Follow / Unfollow</p>
+                <p><%= t('landing.pricing.basic_follow') %></p>
               </li>
               <li class="pricing-spec">
                 <i class="fas fa-check-circle circle-checked"></i>
-                <p>Like</p>
+                <p><%= t('landing.pricing.basic_like') %></p>
               </li>
               <li class="pricing-spec">
                 <i class="fas fa-check-circle circle-checked"></i>
-                <p>Limited support</p>
+                <p><%= t('landing.pricing.basic_support') %></p>
               </li>
               <li class="pricing-spec">
                 <i class="fas fa-check-circle circle-checked"></i>
-                <p>Monthly report</p>
+                <p><%= t('landing.pricing.basic_report') %></p>
               </li>
               <li class="pricing-spec">
                 <i class="fas fa-check-circle circle-unchecked"></i>
-                <p>Comments</p>
+                <p><%= t('landing.pricing.basic_comment') %></p>
               </li>
               <li class="pricing-spec">
                 <i class="fas fa-check-circle circle-unchecked"></i>
-                <p>Direct Messages</p>
+                <p><%= t('landing.pricing.basic_dm') %></p>
               </li>
             </ul>
           </div>
           <div class="card-pricing-footer">
-            <h3 class="pricing-title">STARTER</h3>
-            <div class="price">59 €</div>
+            <h3 class="pricing-title"><%= t('landing.pricing.basic_title') %></h3>
+            <div class="price"><%= t('landing.pricing.basic_price') %></div>
             <button class="primary-button pricing-button">
               <%= link_to 'Get Started', getstarted_starter_path %>
             </button>
@@ -52,37 +52,37 @@
           <div class="card-pricing-content">
             <ul>
               <li class="pricing-spec amount-followers">
-                <p><strong>1000 - 1500</strong> <br> <span>targeted Followers per month</span></p>
+                <p><%= t('landing.pricing.standard_amount_html') %></p>
               </li>
               <li class="pricing-spec">
                 <i class="fas fa-check-circle circle-checked"></i>
-                <p>Follow / Unfollow</p>
+                <p><%= t('landing.pricing.standard_follow') %></p>
               </li>
               <li class="pricing-spec">
                 <i class="fas fa-check-circle circle-checked"></i>
-                <p>Like</p>
+                <p><%= t('landing.pricing.standard_like') %></p>
               </li>
               <li class="pricing-spec">
                 <i class="fas fa-check-circle circle-checked"></i>
-                <p>Limited support</p>
+                <p><%= t('landing.pricing.standard_support') %></p>
               </li>
               <li class="pricing-spec">
                 <i class="fas fa-check-circle circle-checked"></i>
-                <p>Monthly report</p>
+                <p><%= t('landing.pricing.standard_report') %></p>
               </li>
               <li class="pricing-spec">
                 <i class="fas fa-check-circle circle-checked"></i>
-                <p>Comments</p>
+                <p><%= t('landing.pricing.standard_support') %></p>
               </li>
               <li class="pricing-spec">
                 <i class="fas fa-check-circle circle-unchecked"></i>
-                <p>Direct Messages</p>
+                <p><%= t('landing.pricing.standard_dm') %></p>
               </li>
             </ul>
           </div>
           <div class="card-pricing-footer">
-            <h3 class="pricing-title">STANDARD</h3>
-            <div class="price">89 €</div>
+            <h3 class="pricing-title"><%= t('landing.pricing.standard_title') %></h3>
+            <div class="price"><%= t('landing.pricing.standard_price') %></div>
             <button class="primary-button pricing-button">
               <%= link_to 'Get Started', getstarted_standard_path %>
             </button>
@@ -100,38 +100,38 @@
             <ul>
               <ul>
               <li class="pricing-spec amount-followers">
-                <p><strong>+ 1500</strong> <br> <span>targeted Followers per month</span></p>
+                <p><%= t('landing.pricing.plus_amount_html') %></p>
               </li>
               <li class="pricing-spec">
                 <i class="fas fa-check-circle circle-checked"></i>
-                <p>Follow / Unfollow</p>
+                <p><%= t('landing.pricing.plus_follow') %></p>
               </li>
               <li class="pricing-spec">
                 <i class="fas fa-check-circle circle-checked"></i>
-                <p>Like</p>
+                <p><%= t('landing.pricing.plus_like') %></p>
               </li>
               <li class="pricing-spec">
                 <i class="fas fa-check-circle circle-checked"></i>
-                <p>Unlimited support</p>
+                <p><%= t('landing.pricing.plus_support').html_safe %></p>
               </li>
               <li class="pricing-spec">
                 <i class="fas fa-check-circle circle-checked"></i>
-                <p>Monthly report</p>
+                <p><%= t('landing.pricing.plus_report') %></p>
               </li>
               <li class="pricing-spec">
                 <i class="fas fa-check-circle circle-checked"></i>
-                <p>Comments</p>
+                <p><%= t('landing.pricing.plus_comment') %></p>
               </li>
               <li class="pricing-spec">
                 <i class="fas fa-check-circle circle-checked"></i>
-                <p>Direct Messages</p>
+                <p><%= t('landing.pricing.plus_dm') %></p>
               </li>
             </ul>
             </ul>
           </div>
           <div class="card-pricing-footer">
-            <h3 class="pricing-title">PLUS</h3>
-            <div class="price">159 €</div>
+            <h3 class="pricing-title"><%= t('landing.pricing.plus_title') %></h3>
+            <div class="price"><%= t('landing.pricing.plus_price') %></div>
             <button class="primary-button pricing-button">
               <%= link_to 'Get Started', getstarted_plus_path %>
             </button>
