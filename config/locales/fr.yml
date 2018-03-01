@@ -41,12 +41,13 @@ fr:
       title: "Merci"
 
     why:
-      title: "Pourquoi Iggrow"
+      section_title: "Pourquoi Iggrow?"
       description_html: "<strong>iggrow</strong> vous fournit un service unique en son genre pour dévolopper organiquement une croissance de vos followers sur Instagram. Nous allions automatisation et  une intelligence humaine dans le ciblage pour vous garantir des résultats convaincants et un retour sur investissement. iggrow, c'est votre manager réseaux sociaux, pour moins d'un dixième du prix !
           <br><br>
-          <br> Les Likes et les Follows sont au 21ième siècle une monnaie digitale. Cette monnaie digitale est représentative d'une confiance accordée et la confiance, c'est de la crédibilité sur un marché. Votre réputation, autrement dit.<br>
+          <br> Les Likes et les Follows sont au 21 ième siècle une monnaie digitale. Cette monnaie digitale est représentative d'une confiance accordée et la confiance, c'est de la crédibilité sur un marché. Votre réputation, autrement dit.<br>
           Commencez aujourd'hui et touchez votre audience avec iggrow!"
-      influencer_html: "Vous êtes une Star Montante sur Instagram ou vous êtes déjà un(e) célèbre
+      influencer_title: "Influenceur"
+      influencer_desc_html: "Vous êtes une Star Montante sur Instagram <br> ou vous êtes déjà un(e) célèbre
             <br>
             Influencer? Nous pouvons vous aider à créer
             <br>
@@ -56,7 +57,8 @@ fr:
       influencer3_html: "Soyez reconnu dans votre industrie"
       influencer4_html: "Créer une marque incontournable autour de votre personne"
       influencer5_html: "Monétiser votre popularité"
-      business_html: "Votre présence sur Instagram fait partie de votre stratégie en tant que business?
+      business_title: "Entreprise"
+      business_desc_html: "Votre présence sur Instagram fait partie de votre <br> stratégie en tant que business?
             <br>
             Nous vous aidons à toucher votre audience et par là même augmenter vos ventes."
       business1: "Améliorer la notoriété de votre marque"
