@@ -8,7 +8,9 @@ fr:
       contact_us: "Nous contacter"
 
     buttons:
-      primary_button: "Commencez"
+      get_started: "Commencez"
+      get_started_influencer_html: "Débutez maintenant avec <strong>influencer</strong>"
+      get_started_business_html: "Débutez maintenant avec <strong>business</strong>"
 
     banner:
         title_html: "RASSEMBLEZ UNE COMMUNITÉ <strong>FORTE</strong>, <strong>ACTIVE</strong> ET
@@ -54,7 +56,6 @@ fr:
       influencer3_html: "Soyez reconnu dans votre industrie"
       influencer4_html: "Créer une marque incontournable autour de votre personne"
       influencer5_html: "Monétiser votre popularité"
-      influencer6_html: "Débutez maintenant avec <strong>influencer</strong>"
       business_html: "Votre présence sur Instagram fait partie de votre stratégie en tant que business?
             <br>
             Nous vous aidons à toucher votre audience et par là même augmenter vos ventes."
@@ -63,7 +64,6 @@ fr:
       business3: "Entrer en contact avec les meilleurs influencers de votre niche"
       business4: "Améliorer l'engagement sur vos publications"
       business5: "Etendez-vous facilement sur de nouveaux marché"
-      business6_html: "Débutez maintenant avec <strong>business</strong>"
 
     pricing:
       basic_amount_html: "<strong>500 - 900</strong> <br> <span>targeted Followers per month</span>"

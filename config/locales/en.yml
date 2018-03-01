@@ -9,6 +9,8 @@ en:
 
     buttons:
       primary_button: "Get Started"
+      get_started_influencer: "Get Started with <strong>influencer</strong>"
+      get_started_business: "Get Started with <strong>business</strong>"
 
     banner:
       title_html: "BUILD A <strong>STRONG</strong>, <strong>ACTIVE</strong> AND
@@ -88,7 +90,6 @@ en:
       influencer3_html: "Get recognized in your industry"
       influencer4_html: "Build a strong personal brand"
       influencer5_html: "Monetize your popularity"
-      influencer6_html: "Get Started with <strong>influencer</strong>"
       business_html: "Is Instagram presence just a part of your online business strategy?
                       <br>
                       We will help you reach your target audience and drive more sales to your business!"
@@ -97,7 +98,6 @@ en:
       business3: "Connect with Top Influencers from your industry"
       business4: "Improve customer engagement"
       business5: "Expand to new markets easily"
-      business6_html: "Get Started with <strong>business</strong>"
 
     pricing:
       basic_amount_html: "<strong>500 - 900</strong> <br> <span>targeted Followers per month</span>"
