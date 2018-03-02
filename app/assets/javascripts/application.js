@@ -17,6 +17,7 @@
 //= require_tree .
 
 $(document).ready(function(){
+
   var scrollTop = 0;
   $(window).scroll(function(){
     scrollTop = $(window).scrollTop();
@@ -42,17 +43,6 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 });
 
 
-
-
-$(document).ready(function () {
-  if (window.location.href.indexOf('/en') != -1) {
-    $("#languagepicker li:eq(0)").before($("#languagepicker li:eq(0)"));
-
-  } else if (window.location.href.indexOf('/fr') != -1) {
-    $("#languagepicker li:eq(0)").before($("#languagepicker li:eq(1)"));
-
-  }
-});
 
 
 
