@@ -31,6 +31,7 @@ $(document).ready(function(){
       $('.iggrow-logo').removeClass('iggrow-logo-blue').fadeIn("slow");
     }
   });
+
 });
 
 
