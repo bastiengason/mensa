@@ -77,7 +77,7 @@ en:
       basic_comment: "Comments"
       basic_dm: "Direct Messages"
       basic_title: "STARTER"
-      basic_price: "59 €"
+      basic_price: "$ 59"
       standard_amount_html: "<strong>1000 - 1500</strong> <br> <span>targeted Followers per month</span>"
       standard_follow: "Follow / Unfollow"
       standard_like: "Like"
@@ -86,7 +86,7 @@ en:
       standard_comment: "Comments"
       standard_dm: "Direct Messages"
       standard_title: "STANDARD"
-      standard_price: "89 €"
+      standard_price: "$ 89"
       plus_amount_html: "<strong>+ 1500</strong> <br> <span>targeted Followers per month</span>"
       plus_follow: "Follow / Unfollow"
       plus_like: "Like"
@@ -95,7 +95,7 @@ en:
       plus_comment: "Comments"
       plus_dm: "Direct Messages"
       plus_title: "PLUS"
-      plus_price: "159 €"
+      plus_price: "$ 159"
 
 
     contact:

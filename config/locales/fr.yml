@@ -67,7 +67,7 @@ fr:
       business2_html: "Augmenter vos ventes en conséquence"
       business3_html: "Entrer en contact avec les meilleurs influencers de votre niche"
       business4_html: "Améliorer l'engagement sur vos publications"
-      business5_html: "Etendez-vous facilement sur de nouveaux marché"
+      business5_html: "Etendez-vous facilement sur de nouveaux marchés"
 
     how:
       section_title: "Comment ça fonctionne ?"
@@ -94,7 +94,7 @@ fr:
       basic_comment: "Commentaire"
       basic_dm: "Messages Directs"
       basic_title: "STARTER"
-      basic_price: "59 €"
+      basic_price: "$ 59"
       standard_amount_html: "<strong>1000 - 1500</strong> <br> <span>Followers ciblés par mois</span>"
       standard_follow: "Follow / Unfollow"
       standard_like: "Like"
@@ -103,7 +103,7 @@ fr:
       standard_comment: "Comments"
       standard_dm: "Messages Directs"
       standard_title: "STANDARD"
-      standard_price: "89 €"
+      standard_price: "$ 89"
       plus_amount_html: "<strong>+ 1500</strong> <br> <span>Followers ciblés par mois</span>"
       plus_follow: "Follow / Unfollow"
       plus_like: "Like"
@@ -112,7 +112,7 @@ fr:
       plus_comment: "Commentaires"
       plus_dm: "Messages Directs"
       plus_title: "PLUS"
-      plus_price: "159 €"
+      plus_price: "$ 159"
 
     contact:
       contact_us_html: "Influencers, Marque Personnel, <br> Start-up, Société Digitale &#038; more
