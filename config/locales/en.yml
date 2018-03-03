@@ -8,7 +8,9 @@ en:
       contact_us: "Contact us"
 
     buttons:
-      primary_button: "Get Started"
+      free_trial: "Start Your 3-days Free Trial"
+      free_trial_message_html: "This is a text, with a %{#pricing} inside."
+      free_trial_mess: "3-days free trial"
       get_started_influencer_html: "Get Started with <strong>influencer</strong>"
       get_started_business_html: "Get Started with <strong>business</strong>"
 
