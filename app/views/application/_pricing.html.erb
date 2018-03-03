@@ -72,7 +72,7 @@
               </li>
               <li class="pricing-spec">
                 <i class="fas fa-check-circle circle-checked"></i>
-                <p><%= t('landing.pricing.standard_support') %></p>
+                <p><%= t('landing.pricing.standard_comment') %></p>
               </li>
               <li class="pricing-spec">
                 <i class="fas fa-check-circle circle-unchecked"></i>
@@ -133,7 +133,7 @@
             <h3 class="pricing-title"><%= t('landing.pricing.plus_title') %></h3>
             <div class="price"><%= t('landing.pricing.plus_price') %></div>
             <button class="primary-button pricing-button">
-              <%= link_to 'Get Started', getstarted_plus_path %>
+              <%= t("3-day free trial", :href => link_to(t("free_trial_mess"), getstarted_plus_path)) %>
             </button>
           </div>
         </div>
