@@ -117,9 +117,23 @@
 }
 
 
-
-
-
+.most-popular {
+  margin-top: -35px;
+  text-align: center;
+  background-color: $purple;
+  max-width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 5px 30px;
+  text-transform: uppercase;
+  font-family: "Lato";
+  letter-spacing: 0.15rem;
+}
 
 
 
