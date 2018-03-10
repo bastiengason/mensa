@@ -37,7 +37,7 @@
             <h3 class="pricing-title"><%= t('landing.pricing.basic_title') %></h3>
             <div class="price"><%= t('landing.pricing.basic_price') %></div>
             <button class="primary-button pricing-button">
-              <%= link_to 'Get Started', getstarted_starter_path %>
+              <%= link_to '3-day free trial', getstarted_starter_path %>
             </button>
           </div>
         </div>
@@ -88,7 +88,7 @@
             <h3 class="pricing-title"><%= t('landing.pricing.standard_title') %></h3>
             <div class="price"><%= t('landing.pricing.standard_price') %></div>
             <button class="primary-button pricing-button">
-              <%= link_to 'Get Started', getstarted_standard_path %>
+              <%= link_to '3-day free trial', getstarted_standard_path %>
             </button>
           </div>
         </div>
@@ -137,7 +137,8 @@
             <h3 class="pricing-title"><%= t('landing.pricing.plus_title') %></h3>
             <div class="price"><%= t('landing.pricing.plus_price') %></div>
             <button class="primary-button pricing-button">
-              <%= t("3-day free trial", :href => link_to(t("free_trial_mess"), getstarted_plus_path)) %>
+              <%= link_to '3-day free trial', getstarted_plus_path %>
+              <%#= t("3-day free trial", :href => link_to(t("free_trial_mess"), getstarted_plus_path)) %>
             </button>
           </div>
         </div>
