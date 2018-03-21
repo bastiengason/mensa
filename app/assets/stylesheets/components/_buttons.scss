@@ -9,12 +9,12 @@
   border: none;
 
   a {
-    color: white;
-    text-decoration: none;
+    color: white !important;
+    text-decoration: none !important;
 
     &:hover {
-      color: white;
-      text-decoration: none;
+      color: white !important;
+      text-decoration: none !important;
     }
   }
 
@@ -41,11 +41,11 @@
   padding-right: 20px;
 
   a {
-    color: white;
-    text-decoration: none;
+    color: white !important;
+    text-decoration: none !important;
 
     &:hover {
-      text-decoration: none;
+      text-decoration: none !important;
     }
   }
 }
@@ -56,6 +56,13 @@
   bottom: -25px;
   margin-left: 10%;
   margin-right: 10%;
+  padding-top: 14px;
+  text-align: center;
+
+  &:hover {
+    color: white !important;
+    text-decoration: none !important;
+  }
 }
 
 
