@@ -1,4 +1,6 @@
 .navbar-recovr {
+  background-color: white;
+  box-shadow: 0px 3px 10px RGBA(180, 180, 180, 0.1);
   position: fixed;
   display: flex;
   flex-direction: row;
@@ -13,11 +15,11 @@
   padding-right: 8%;
 
   a {
-    color: rgba(255, 255, 255, .8);
+    color: rgba(100, 100, 100, .8);
 
     &:focus,
     &:hover {
-      color: white;
+      color: rgba(100, 100, 100, 1);
       font-weight: 500;
       text-decoration: none;
     }
@@ -108,7 +110,7 @@
 }
 
 .iggrow-logo {
-  color: white;
+  color: $brand-orange !important;
   font-size: 35px;
   font-weight: 600;
 

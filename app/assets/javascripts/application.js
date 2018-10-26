@@ -16,23 +16,23 @@
 //= require bootstrap-sprockets
 //= require_tree .
 
-$(document).ready(function(){
+// $(document).ready(function(){
 
-  var scrollTop = 0;
-  $(window).scroll(function(){
-    scrollTop = $(window).scrollTop();
-     $('.counter').html(scrollTop);
+//   var scrollTop = 0;
+//   $(window).scroll(function(){
+//     scrollTop = $(window).scrollTop();
+//      $('.counter').html(scrollTop);
 
-    if (scrollTop >= 150) {
-      $('.navbar-recovr').addClass('second-nav').fadeIn("slow");
-      $('.iggrow-logo').addClass('iggrow-logo-blue').fadeIn("slow");
-    } else if (scrollTop < 150) {
-      $('.navbar-recovr').removeClass('second-nav').fadeIn("slow");
-      $('.iggrow-logo').removeClass('iggrow-logo-blue').fadeIn("slow");
-    }
-  });
+//     if (scrollTop >= 150) {
+//       $('.navbar-recovr').addClass('second-nav').fadeIn("slow");
+//       $('.iggrow-logo').addClass('iggrow-logo-blue').fadeIn("slow");
+//     } else if (scrollTop < 150) {
+//       $('.navbar-recovr').removeClass('second-nav').fadeIn("slow");
+//       $('.iggrow-logo').removeClass('iggrow-logo-blue').fadeIn("slow");
+//     }
+//   });
 
-});
+// });
 
 
 $(document).on('click', 'a[href^="#"]', function (event) {

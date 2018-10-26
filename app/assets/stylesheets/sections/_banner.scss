@@ -1,23 +1,16 @@
 #banner {
-  min-height: 100vh;
-  background: image-url('bg-main.png') no-repeat center;
-  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-size: cover; /* version standardisée */
+  min-height: 80vh;
+  background-color: #F6FAFF;
   padding: 8%;
-
-  @media screen and (max-width: 375px) {
-    height: 100%;
-    text-align: center;
-  }
 }
 
 .banner-title {
-  color: white;
+  color: $brand-orange;
   font-size: 32px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.5;
   margin-top: 12vh;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 
   @media screen and (max-width: 375px) {
     font-size: 23px;
@@ -29,15 +22,22 @@
 }
 
 .banner-desc {
-  color: white;
-  font-size: 22px;
-  font-weight: 300;
+  font-size: 16px;
+  font-weight: 400;
   line-height: 1.7;
-  margin-bottom: 80px;
+  margin-bottom: 25px;
 
   @media screen and (max-width: 375px) {
     font-size: 18px;
   }
+}
+
+.banner-sub-desc {
+  color: $gray;
+  margin-top: 5px;
+  font-size: 12px;
+  margin-bottom: 20px;
+  margin-top: 15px;
 }
 
 .insta-word {
