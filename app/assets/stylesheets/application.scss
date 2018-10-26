@@ -19,6 +19,7 @@
 @import "sections/footer";
 @import "sections/confirm_section";
 @import "sections/thankyou_section";
+@import "sections/sections";
 
 // Pages
 @import "pages/faq";
@@ -29,15 +30,10 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #FFFFFF;
 }
 
-.section-title {
-  text-align: center;
-  font-size: 35px;
-  font-weight: 600;
-  color: $brand-blue;
-  margin-bottom: 55px;
-}
+
 
 hr {
   border: $gray solid 1px;
