@@ -1,15 +1,16 @@
 .section-title {
   text-align: center;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 600;
-  color: $brand-orange;
+  color: #2A363D;
   margin-bottom: 15px;
 }
 
 .section-desc {
   width: 400px;
+  color: $gray;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  line-height: 1.6;
+  line-height: 1.9;
 }
