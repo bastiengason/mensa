@@ -14,6 +14,7 @@ Rails.application.routes.draw do
     get '/jobs', to: 'pages#jobs'
     get '/terms', to: 'pages#terms'
     get '/pricing', to: 'pages#pricing'
+    get '/how-it-works', to: 'pages#how_it_works'
 
     get '/getstarted', to: 'getstarted#getstarted'
 end
