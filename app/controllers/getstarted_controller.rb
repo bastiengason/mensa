@@ -5,6 +5,9 @@ class GetstartedController < ApplicationController
   def basic_confirm
   end
 
+  def getstarted
+  end
+
   def intermediate
   end
 
