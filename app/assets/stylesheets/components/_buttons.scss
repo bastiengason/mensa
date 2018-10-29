@@ -6,6 +6,7 @@
   padding: 10px 20px ;
   border-radius: 5px;
   border: none;
+  width: 144px;
 
   a {
     color: white !important;
@@ -15,6 +16,11 @@
       color: white !important;
       text-decoration: none !important;
     }
+  }
+
+  &:hover {
+    color: white !important;
+    text-decoration: none !important;
   }
 }
 

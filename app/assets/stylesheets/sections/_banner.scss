@@ -40,25 +40,6 @@
   margin-top: 15px;
 }
 
-.insta-word {
-  color: $purple;
-  font-size: 38px;
-  font-weight: 600;
-  @media screen and (max-width: 375px) {
-    font-size: 25px;
-  }
-}
-
-
-.super-social-word {
-  color: $purple;
-  font-size: 30px;
-  font-weight: 600;
-  @media screen and (max-width: 375px) {
-    font-size: 22px;
-  }
-}
-
 .banner-pages {
   min-height: 45vh;
   background-color: $brand-blue;
