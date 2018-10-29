@@ -1,5 +1,5 @@
 #contact {
-  height: 85vh;
+  height: 50vh;
   position: relative;
 
   @media screen and (max-width: 375px) {
@@ -34,4 +34,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+#iphone {
+  padding: 100px;
 }
