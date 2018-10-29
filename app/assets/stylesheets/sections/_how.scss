@@ -1,6 +1,5 @@
 #how {
   padding-top: 60px;
-  padding-bottom: 70px;
 
   @media screen and (max-width: 375px) {
     padding-left: 20px;
@@ -11,7 +10,7 @@
 }
 
 .feature {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 
   @media screen and (max-width: 375px) {
     margin-bottom: 80px;
@@ -48,10 +47,14 @@
   margin-bottom: 10px;
   letter-spacing: 0.03em;
   font-weight: 600;
+  text-align: left;
 }
 
 .features-desc {
   color: $gray;
   line-height: 1.5;
   font-weight: 300;
+  margin-bottom: 30px;
+  padding-right: 60px;
+  text-align: left;
 }
