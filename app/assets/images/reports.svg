@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>reports</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="release" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="reports">
+            <circle id="Oval-3" fill="#4ED687" cx="13" cy="13" r="13"></circle>
+            <g id="Group-10" transform="translate(13.000000, 13.000000) rotate(-90.000000) translate(-13.000000, -13.000000) translate(6.500000, 6.000000)" fill="#FFFFFF">
+                <rect id="Rectangle-7" x="0" y="0" width="11.1428571" height="2.78571429" rx="1.39285714"></rect>
+                <rect id="Rectangle-7-Copy" x="0" y="5.57142857" width="8.35714286" height="2.78571429" rx="1.39285714"></rect>
+                <rect id="Rectangle-7-Copy-2" x="0" y="11.1428571" width="13" height="2.78571429" rx="1.39285714"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
