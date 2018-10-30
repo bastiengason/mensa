@@ -1,5 +1,4 @@
-
-<%= render 'shared/navbar_pages' %>
+<%= render 'shared/navbar' %>
 
 <div class="banner-pages">
   <div class="container">
@@ -14,111 +13,355 @@
 <div id="faq">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <div class="faq-card">
-          <h2 class="question">How many followers should i expect to gain everyday?</h2>
-          <div class="answer">There are many factors to this. From size and age of account to content and engagement. However, an average would be from 20-100 followers a day.</div>
+        <div id="accordion" class="faq-questions">
+          <!-- Question 1 -->
+          <div class="card question">
+            <div class="card-header question-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                  Why do I need your services?
+                </button>
+              </h5>
+            </div>
+            <!-- Answer 1 -->
+            <div id="collapse1" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body faq-answer">
+                Our services are made to help you winning on Instagram. We want to help you reach your customers through your account. We create reliable and strong community around your business.
+
+                It's a complete service that will manage your Instagram and save you time to focus on what matter most. Your customers.
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
 
-      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <div class="faq-card">
-          <h2 class="question">What type of activity will IGGROW generate for me?</h2>
-          <div class="answer">Likes, Following, and Unfollowing. However, if you wish to remove one of these you can do so by emailing us.</div>
+        <div id="accordion" class="faq-questions">
+          <!-- Question 2 -->
+          <div class="card question">
+            <div class="card-header question-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                  What is exactly “Design solution”?
+                </button>
+              </h5>
+            </div>
+            <!-- Answer 2 -->
+            <div id="collapse2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body faq-answer">
+                The Design Solution we provide is a bunch of tips, advices, and suggestions for you to create the perfect content that will fit you Instagram feed. We help you to create the perfect user experience for your customers and followers.
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
 
-      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <div class="faq-card">
-          <h2 class="question">How is the activity targeted?</h2>
-          <div class="answer">IGGROW encourages you to research the hashtags you wish to target and usernames of accounts you want to target. Your quality of followers will highly rely on the types of hashtags and usernames you provide us with.</div>
-        </div>
-      </div>
-    </div>
+          <!-- Question 3 -->
+          <div class="card question">
+            <div class="card-header question-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                  What is “Growth Management”?
+                </button>
+              </h5>
+            </div>
+            <div id="collapse3" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body faq-answer">
+                To grow properly on Instagram you need to contantly interact with people who are interested in what you do. We analyse your competitors, your niche and we create daily interactions. We engage with targetted followers.
+              </div>
+            </div>
+          </div>
 
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <h2 class="question">Will IGGROW unfollow people i am currently following?</h2>
-        <div class="answer">No, we create what we call The Safelist. The Safelist is a list of the people you were following at the moment of signing up. That way we make sure to never unfollow those people.</div>
-      </div>
+          <!-- Question 4 -->
+          <div class="card question">
+            <div class="card-header question-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                  How often will I receive my Analytics report?
+                </button>
+              </h5>
+            </div>
+            <div id="collapse4" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body faq-answer">
+                Depends on the plan you took. With Starter, you will receive monthly reports. With Professionnal and Unlimited you will get a report every two weeks.
+              </div>
+            </div>
+          </div>
 
-      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <h2 class="question">What if i follow someone while the service is running? Will you unfollow them?</h2>
-        <div class="answer">In that case can email us mentionning the username and we will automatically add that username to The Safelist.</div>
-      </div>
+          <!-- Question 5 -->
+          <div class="card question">
+            <div class="card-header question-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                  What is a “Hashtags Research”?
+                </button>
+              </h5>
+            </div>
+            <div id="collapse5" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body faq-answer">
+                Our team spend time every week looking for the best and trendy hashtags for your business.
+              </div>
+            </div>
+          </div>
 
-      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <h2 class="question">How much will i pay for IGGROW?</h2>
-        <div class="answer">Our service starts at $59 a month. However, you can cancel at any time by emailing us.</div>
-      </div>
-    </div>
+          <!-- Question 6 -->
+          <div class="card question">
+            <div class="card-header question-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                  You post for me?
+                </button>
+              </h5>
+            </div>
+            <div id="collapse6" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body faq-answer">
+                We have a in-house team that will take in charge to post your content with the caption you provide for you.
+                We analyse when is the perfect time to post to get the best engagement with your community.
+              </div>
+            </div>
+          </div>
 
-    <!-- Row -->
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <h2 class="question">Do I have dashboard to interact with?</h2>
-        <div class="answer">No, that’s what makes us that much better than our competitors! Instead of having to constantly update your account, you just provide us with the hashtags and usernames and we take care of the rest.
-        Making sure your account runs flawlessly.</div>
-      </div>
+          <!-- Question 7 -->
+          <div class="card question">
+            <div class="card-header question-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                  What kind of Digital Strategies do you provide?
+                </button>
+              </h5>
+            </div>
+            <div id="collapse7" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body faq-answer">
+                Together we elaborate the perfect strategy to reach a maximum of users.
+              </div>
+            </div>
+          </div>
 
-      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <h2 class="question">How many hashtags and usernames do I need to provide to IGGROW?</h2>
-        <div class="answer">About up to 15 hashtags and 15 usernames should be enough for the month.</div>
-      </div>
+          <!-- Question 8 -->
+          <div class="card question">
+            <div class="card-header question-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                  What is “Unlimited Support”?
+                </button>
+              </h5>
+            </div>
+            <div id="collapse8" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body faq-answer">
+                With Unlimited Support you get a special treatment. We will give you personal access to a live chat to ask us what you want at anytime.
+              </div>
+            </div>
+          </div>
 
-      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <h2 class="question">Are these real followers?</h2>
-        <div class="answer">Yes all new followers are 100% real and targeted. You may find some places online that sell followers, these are mostly farmed networks or fake accounts. That is not what we offer.</div>
-      </div>
-    </div>
+          <!-- Question 9 -->
+          <div class="card question">
+            <div class="card-header question-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                  What is the process when I have paid?
+                </button>
+              </h5>
+            </div>
+            <div id="collapse9" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body faq-answer">
+                Once you subscribed you will receive an email with various questions to help you brief us. We will assist you throughout the whole process & get back to you if we have more questions.
+              </div>
+            </div>
+          </div>
 
-    <!-- Row -->
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <h2 class="question">How do you do it?</h2>
-        <div class="answer">I'm glad you asked, it's magic. Actually it's pretty simple. Each day we'll perform many tasks in order to grow your account, following, unfollowing, liking, etc to organically grow your audience.</div>
-      </div>
+          <!-- Question 10 -->
+          <div class="card question">
+            <div class="card-header question-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                  How can I contact you to send my questions?
+                </button>
+              </h5>
+            </div>
+            <div id="collapse10" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body faq-answer">
+                Feel free to send us an email at contact@helloradius.co - we will reply within 24 hours.
+              </div>
+            </div>
+          </div>
 
-      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <h2 class="question">Do you post content to my account?</h2>
-        <div class="answer">You remain in control of all the content you post. We do not post any content for you. This allows you to solely focus on posting the best material possible, while we focus on bringing you the right audience to view your posts. It is important that you continue posting content regularly to your account, as potential new followers only tend to follow active accounts.</div>
-      </div>
+          <!-- Question 12 -->
+          <div class="card question">
+            <div class="card-header question-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                  Do you have a refund policy?
+                </button>
+              </h5>
+            </div>
+            <div id="collapse11" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body faq-answer">
+                Yes. You have 10 days to notify us. 100% money back guarantee, no questions asked.
+              </div>
+            </div>
+          </div>
 
-      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <h2 class="question">Why does the number of new followers each month vary?</h2>
-        <div class="answer">There are several factors. In general, it is related to the size of the account from the start and target niche. Once we get good momentum with growing your followers, the faster we can run with results every month.</div>
-      </div>
-    </div>
+          <!-- Question 12 -->
+          <div class="card question">
+            <div class="card-header question-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                  How long does it take to see the results?
+                </button>
+              </h5>
+            </div>
+            <div id="collapse12" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body faq-answer">
+                Once the strategy is applied to your account you will see more interactions and traffic on your accoutn within 3 to 4 days.
+              </div>
+            </div>
+          </div>
 
-    <!-- Row -->
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <h2 class="question">Why should I post content to my account regularly?</h2>
-        <div class="answer">It is important to continue posting content to your account on a regular basis. Since these are real people, they're much more likely to follow and remain following an active account.</div>
-      </div>
+          <!-- Question 13 -->
+          <div class="card question">
+            <div class="card-header question-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                  Do you need to access to my Instagram Account?
+                </button>
+              </h5>
+            </div>
+            <div id="collapse13" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body faq-answer">
+                In order to run campaign to your Instagram account we need to access your account. But don't worry we won't acces your private informations.
+              </div>
+            </div>
+          </div>
 
-      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <h2 class="question">Can I keep posting? Can I still follow and unfollow accounts?</h2>
-        <div class="answer">Yes! You can resume doing your normal activity. We will be working in the background, but your account will still be 100% in your possession.</div>
-      </div>
+          <!-- Question 14 -->
+          <div class="card question">
+            <div class="card-header question-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+                  I need content for my account? Do you guys do that?
+                </button>
+              </h5>
+            </div>
+            <div id="collapse14" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body faq-answer">
+                No. We do not create content. But we can refer you to our official partner in content creation <a href="www.productile.co">Productile</a>. (We have discount for you.)
+              </div>
+            </div>
+          </div>
 
-      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <h2 class="question">How quickly will my Growth Engine be underway?</h2>
-        <div class="answer">New campaigns are generally underway within 48 hours, and a marketing expert at Iggrow will be in touch as soon as it kicks off to let you know.</div>
-      </div>
-    </div>
+          <!-- Question 15 -->
+          <div class="card question">
+            <div class="card-header question-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
+                  I need to call you, can we arrange a call together?
+                </button>
+              </h5>
+            </div>
+            <div id="collapse15" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body faq-answer">
+                Yes sure, send us an email to schedule a call with us.
+              </div>
+            </div>
+          </div>
 
-    <!-- Row -->
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <h2 class="question">Do I have to verify my account?</h2>
-        <div class="answer">You will likely need to verify your account. This happens from multiple computer logins. Your social media platform is just confirming with you to secure your account. Don’t worry, your account is 100% safe.</div>
-      </div>
+          <!-- Question 16 -->
+          <div class="card question">
+            <div class="card-header question-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse16" aria-expanded="false" aria-controls="collapse16">
+                  Can you describe the process of working with your team?
+                </button>
+              </h5>
+            </div>
+            <div id="collapse16" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body faq-answer">
+                We will send you a form to understand your needs and the clear goal you want to reach. Afterwards, we will start working on the growth and digital strategies. You will see the result pretty quickly.
+              </div>
+            </div>
+          </div>
 
-      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <h2 class="question">How do I get started?</h2>
-        <div class="answer">It’s pretty simple, after you purchase you will receive a brief questionnaire. Here you will provide all the info your geek will need and they'll be in touch to let you know they're getting started. Done and done.</div>
-      </div>
+          <!-- Question 17 -->
+          <div class="card question">
+            <div class="card-header question-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse17" aria-expanded="false" aria-controls="collapse17">
+                  How should I know what plan is good for me?
+                </button>
+              </h5>
+            </div>
+            <div id="collapse17" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body faq-answer">
+                It really depends on your needs. The <strong>Started Plan</strong> is only focus on the growth, <strong>Professional</strong> is dedicated to save you time with posting for you and managing your growth. <strong>Unlimited</strong> will help you through the entire process of winning on Instagram, from growth to content.
+              </div>
+            </div>
+          </div>
+
+          <!-- Question 18 -->
+          <div class="card question">
+            <div class="card-header question-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse18" aria-expanded="false" aria-controls="collapse18">
+                  Tailored plan? What does that mean?
+                </button>
+              </h5>
+            </div>
+            <div id="collapse18" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body faq-answer">
+                It is the perfect mix between Starter, Professional and Unlimited. You can drop or add some features, with a special price, depends on what you really need.
+              </div>
+            </div>
+          </div>
+
+          <!-- Question 19 -->
+          <div class="card question">
+            <div class="card-header question-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse19" aria-expanded="false" aria-controls="collapse19">
+                  What does Ux and Ui stand for?
+                </button>
+              </h5>
+            </div>
+            <div id="collapse19" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body faq-answer">
+                UX is User Experience. We study your followers behaviors to engage better with them. <br>
+                UI is User Interface. What your followers see is really important. We give you tricks and tips to help you create the perfect post, stories to keep them engage.
+              </div>
+            </div>
+          </div>
+
+          <!-- Question 20 -->
+          <div class="card question">
+            <div class="card-header question-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse20" aria-expanded="false" aria-controls="collapse20">
+                  How can I see the results?
+                </button>
+              </h5>
+            </div>
+            <div id="collapse20" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body faq-answer">
+                Through the analytics report will see the engagement grow with your account. The direct results will be to gain more followers, likes and comments.
+              </div>
+            </div>
+          </div>
+
+          <!-- Question 21 -->
+          <div class="card question">
+            <div class="card-header question-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse21" aria-expanded="false" aria-controls="collapse21">
+                  How will you communicate with me?
+                </button>
+              </h5>
+            </div>
+            <div id="collapse21" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body faq-answer">
+                We communicate with you by email. But if needed we can schedule a call, or a live chat.
+              </div>
+            </div>
+          </div>
+
+
+
+
     </div>
   </div>
 </div>

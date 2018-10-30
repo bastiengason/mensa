@@ -42,15 +42,13 @@
 
 .banner-pages {
   min-height: 45vh;
-  background-color: $brand-blue;
+  background-color: #F6FAFF;
   text-align: center;
-  background: image-url('bg-banner-pages.png') no-repeat center;
-  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-size: cover; /* version standardisée */
 
   h1 {
     padding-top: 150px;
-    color: white;
+    color: #2A363D;
+    font-size: 30px;
   }
 
 }
