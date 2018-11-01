@@ -1,12 +1,21 @@
 .card-pricing {
-  width: 300px;
+  width: 310px;
   background-color: white;
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
+  box-shadow: 10px 10px 30px rgba(180, 180, 180, .3);
 }
 
-.card-pricing-header {}
+.card-pricing-header {
+
+  .img-header-pricing-1 {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+}
 
 .card-pricing-content {
   padding: 25px;
@@ -43,9 +52,19 @@
 }
 
 .pricing-features {
+  margin-top: 30px;
 
   .feature-element {
+    list-style: none;
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: rgba(0, 0, 0, .6);
 
+    .fa-check-circle {
+      color: #5FB760;
+      margin-left: -20px;
+      margin-right: 6px;
+    }
   }
 }
 
