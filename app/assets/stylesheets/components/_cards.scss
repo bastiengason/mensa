@@ -6,10 +6,13 @@
   margin-right: auto;
   margin-bottom: 50px;
   box-shadow: 10px 10px 30px rgba(180, 180, 180, .3);
+
+  @media screen and (max-width: 410px) {
+    width: 100%;
+  }
 }
 
 .card-pricing-header {
-
   .img-header-pricing-1 {
     width: 100%;
     border-top-left-radius: 10px;
@@ -54,11 +57,19 @@
 .pricing-features {
   margin-top: 30px;
 
+  @media screen and (max-width: 410px) {
+    padding-left: 20px;
+  }
+
   .feature-element {
     list-style: none;
     font-size: 14px;
     margin-bottom: 15px;
     color: rgba(0, 0, 0, .6);
+
+    @media screen and (max-width: 410px) {
+      font-size: 13px;
+    }
 
     .fa-check-circle {
       color: #5FB760;
