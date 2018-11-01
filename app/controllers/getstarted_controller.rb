@@ -1,23 +1,8 @@
 class GetstartedController < ApplicationController
-  def basic
-  end
-
-  def basic_confirm
-  end
-
-  def getstarted
-  end
-
-  def intermediate
-  end
-
-  def intermediate_confirm
+  def creative
   end
 
   def pro
-  end
-
-  def pro_confirm
   end
 
   def thankyou
