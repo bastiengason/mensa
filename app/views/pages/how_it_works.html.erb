@@ -2,7 +2,43 @@
 <%= render 'shared/navbar' %>
 
 <div id="how-it-works">
+  <div id="accordion" class="faq-questions">
+          <!-- Question 1 -->
+          <div class="card question">
+            <div class="card-header question-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                  Does Mensa offer any sort of guarantee?
+                </button>
+              </h5>
+            </div>
+            <!-- Answer 1 -->
+            <div id="collapse1" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body faq-answer">
+                We offer a 14 day money-back guarantee. This means that if you are not happy within your first two weeks of service, just let us know and we will issue you a refund. No questions asked!
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <div id="accordion" class="faq-questions">
+          <!-- Question 1 -->
+          <div class="card question">
+            <div class="card-header question-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                  Does Mensa offer any sort of guarantee?
+                </button>
+              </h5>
+            </div>
+            <!-- Answer 1 -->
+            <div id="collapse2" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body faq-answer">
+                We offer a 14 day money-back guarantee. This means that if you are not happy within your first two weeks of service, just let us know and we will issue you a refund. No questions asked!
+              </div>
+            </div>
+          </div>
+        </div>
 </div>
 
 <!-- Footer -->
