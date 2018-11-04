@@ -1,4 +1,14 @@
 #how-it-works {
   min-height: 100vh;
-  background-color: #F6FAFF;
+  background-color: white;
+
+  h3 {
+    color: $brand-orange;
+  }
 }
+
+.how-desc {
+  font-size: 22px !important;
+  line-height: 1.7em;
+}
+
