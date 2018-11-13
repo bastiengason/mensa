@@ -7,6 +7,7 @@ Rails.application.routes.draw do
     get '/terms', to: 'pages#terms'
     get '/pricing', to: 'pages#pricing'
     get '/how-it-works', to: 'pages#how_it_works'
+    get '/contact', to: 'pages#contact'
 
     get 'getstarted/creative', to: 'getstarted#creative'
     get 'getstarted/pro', to: 'getstarted#pro'
