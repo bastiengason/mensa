@@ -50,6 +50,10 @@
   font-weight: 600;
   text-align: left;
   font-size: 20px;
+
+  @media screen and (max-width: 411px) {
+    font-size: 16px;
+  }
 }
 
 .features-desc {
@@ -59,6 +63,11 @@
   margin-bottom: 30px;
   padding-right: 60px;
   text-align: left;
+
+  @media screen and (max-width: 411px) {
+    padding-left: 42px;
+    padding-right: 30px;
+  }
 }
 
 .how-image {
