@@ -79,6 +79,33 @@
   }
 }
 
+/////////////////////////////////////////////////////////////////// Card Persona
+
+.card-persona {
+  height: 200px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+  box-shadow: 4px 4px 30px  rgba(100, 100, 100, .2);
+}
+
+.persona-title {
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+.persona-img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
 
 
 
