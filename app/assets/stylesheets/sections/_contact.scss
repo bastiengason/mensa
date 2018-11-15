@@ -1,5 +1,5 @@
 #contact {
-  height: 50vh;
+  min-height: 50vh;
   position: relative;
 
   @media screen and (max-width: 375px) {
@@ -38,6 +38,7 @@
 }
 
 #iphone {
-  padding: 25px;
-  margin-bottom: 75px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding: 100px 20px
 }
