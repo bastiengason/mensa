@@ -8,6 +8,8 @@ Rails.application.routes.draw do
     get '/pricing', to: 'pages#pricing'
     get '/how-it-works', to: 'pages#how_it_works'
     get '/contact', to: 'pages#contact'
+    get '/thankyou-creative', to: 'pages#thankyou_creative'
+    get '/thankyou-pro', to: 'pages#thankyou_pro'
 
     get 'getstarted/creative', to: 'getstarted#creative'
     get 'getstarted/pro', to: 'getstarted#pro'

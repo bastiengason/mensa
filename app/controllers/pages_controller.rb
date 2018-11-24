@@ -19,4 +19,10 @@ class PagesController < ApplicationController
 
   def contact
   end
+
+  def thankyou_creative
+  end
+
+  def thankyou_pro
+  end
 end
